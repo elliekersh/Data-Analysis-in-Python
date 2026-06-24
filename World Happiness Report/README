@@ -1,0 +1,30 @@
+# World Happiness Report — Data Cleaning Pipeline
+
+## Overview
+A data cleaning pipeline built on the World Happiness Report dataset (2015–2019).
+The goal is to produce a clean, analysis-ready dataset by handling missing values,
+removing duplicates, standardising formatting, and flagging outliers.
+
+## Dataset
+Source: [Kaggle — World Happiness Report](https://www.kaggle.com/datasets/unsdsn/world-happiness)  
+Files: `2015.csv`, `2016.csv`, `2017.csv`, `2018.csv`, `2019.csv`
+
+## What This Project Covers
+- Auditing raw data (nulls, dtypes, duplicates, value counts)
+- Handling missing values with appropriate imputation strategies
+- Detecting and flagging outliers using IQR
+- Standardising inconsistent string formatting
+- Exporting a clean dataset and a summary of changes made
+
+## How to Run
+1. Clone the repo and navigate to this folder
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the script: `python main.py`
+
+## Requirements
+- Python 3.8+
+- pandas
+- numpy
+
+## Status
+In progress
